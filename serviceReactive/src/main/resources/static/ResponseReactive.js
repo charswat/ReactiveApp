@@ -2,7 +2,7 @@
 var respuesta = document.getElementById('respuesta');
 var formulario = document.getElementById('formulario');
 
-    fetch('http://127.17.0.1:8080/user',{
+    fetch('http://172.17.0.1:8080/user',{
         method: 'GET',
         headers:{
                 'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ var formulario = document.getElementById('formulario');
  		var respuesta = document.getElementById('respuesta');
         var formulario = document.getElementById('formulario');
 
-            fetch('http://127.17.0.1:8080/user/'+$('input[name=id]').val(),{
+            fetch('http://172.17.0.1:8080/user/'+$('input[name=id]').val(),{
                 method: 'GET',
                 headers:{
                         'Content-Type': 'application/json',
